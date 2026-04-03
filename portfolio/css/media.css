@@ -4,7 +4,35 @@ body{
   overflow-x: hidden;
 }
 .cards-call h4{
-  font-size: 1.1rem;
+  font-size: 1rem;
+}
+
+.next,
+.tailwind,
+.TypeScript,
+.React {
+
+  font-size: 0.7rem;
+  padding: 5px 8px;
+}
+
+.menu-btns button {
+  padding: 12px 0;
+  width: 30%;
+  font-size: 0.7rem;
+}
+
+.mwkegweb-list p{
+font-size: 0.6rem;
+}
+
+.box-customerrr button{
+  font-size: 0.7rem;
+}
+
+.icon-follwo {
+  width: 45px;
+  height: 45px;
 }
 
 }
