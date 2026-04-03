@@ -7,6 +7,10 @@ body{
   font-size: 1rem;
 }
 
+aside.active-side {
+  transform: translateX(6%);
+}
+
 .next,
 .tailwind,
 .TypeScript,
