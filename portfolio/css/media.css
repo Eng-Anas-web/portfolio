@@ -1,71 +1,67 @@
 @media (min-width: 320px) and (max-width: 415px) {
+  body {
+    overflow-x: hidden;
+  }
 
-body{
-  overflow-x: hidden;
-}
+  aside.active-side {
+    transform: translateX(6%);
+  }
 
+  p,
+  h6,
+  li,
+  label,
+  input,
+  textarea,
+  button {
+    font-size: 0.7rem !important;
+  }
 
-aside.active-side {
-  transform: translateX(6%);
-}
+  h4,
+  h5 {
+    font-size: 0.9rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
 
+  h2 {
+    font-size: 1.1rem;
+  }
 
-p ,
-h6,
-li,
-label,
-input,
-textarea,
-button{
-  font-size: 0.8rem !important;
-}
+  .next,
+  .tailwind,
+  .TypeScript,
+  .React {
+    font-size: 0.6rem !important;
+    padding: 5px 8px;
+  }
 
-h4 ,
-h5{
-  font-size: 0.9rem;
-}
-h3{
-  font-size: 1rem;
-}
+  .menu-btns button {
+    padding: 12px 0;
+    width: 30%;
+    font-size: 0.7rem !important;
+  }
 
-h2{
-  font-size: 1.1rem;
-}
+  .mwkegweb-list p {
+    font-size: 0.6rem !important;
+  }
 
+  .box-customerrr button {
+    font-size: 0.6rem !important;
+  }
 
+  .icon-follwo {
+    width: 45px;
+    height: 45px;
+  }
 
-.next,
-.tailwind,
-.TypeScript,
-.React {
-
-  font-size: 0.7rem !important;
-  padding: 5px 8px;
-}
-
-.menu-btns button {
-  padding: 12px 0;
-  width: 30%;
-  font-size: 0.7rem !important;
-}
-
-.mwkegweb-list p{
-font-size: 0.6rem !important;
-}
-
-.box-customerrr button{
-  font-size: 0.6rem !important;
-}
-
-.icon-follwo {
-  width: 45px;
-  height: 45px;
-}
-
-.head-text-2 h2 {
-  font-size: 1.8rem;
-}
-
+  .head-text-2 h2 {
+    font-size: 1.8rem;
+  }
+  .cards-call h4 {
+    font-size: 0.8rem;
+  }
 }
 /* موبايل */
 @media (max-width: 767px) {
@@ -81,8 +77,6 @@ font-size: 0.6rem !important;
   .timeline-point {
     left: 10px;
   }
-
-
 }
 
 @media (min-width: 768px) {
@@ -261,13 +255,13 @@ font-size: 0.6rem !important;
     width: 50%;
   }
   .next-btn {
-  right:5% !important;
-  top: 40%;
-}
-.prev-btn {
-  left: 5% !important;
-  top: 40%;
-}
+    right: 5% !important;
+    top: 40%;
+  }
+  .prev-btn {
+    left: 5% !important;
+    top: 40%;
+  }
 }
 
 @media (min-width: 992px) {
@@ -398,8 +392,6 @@ font-size: 0.6rem !important;
     padding: 23px;
   }
 
-
-
   .card-customer h6 {
     font-size: 1.3rem;
   }
@@ -493,10 +485,6 @@ font-size: 0.6rem !important;
     font-size: 1.2rem;
     padding: 10px 13px;
   }
-
-
 }
 @media (min-width: 1400px) {
 }
-
-
