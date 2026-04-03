@@ -4,7 +4,13 @@ body{
   overflow-x: hidden;
 }
 .cards-call h4{
+  font-size: 0.9rem;
+}
+.cards-call h5{
   font-size: 1rem;
+}
+.cards-call p{
+  font-size: 0.8rem;
 }
 
 aside.active-side {
@@ -31,12 +37,16 @@ font-size: 0.6rem;
 }
 
 .box-customerrr button{
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 .icon-follwo {
   width: 45px;
   height: 45px;
+}
+
+.head-text-2 h2 {
+  font-size: 1.8rem;
 }
 
 }
