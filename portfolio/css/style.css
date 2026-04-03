@@ -80,17 +80,17 @@ html.light {
 /* خطوط المشروع */
 @font-face {
   font-family: Tajawal;
-  src: url("/font/Tajawal/Tajawal-Bold.ttf");
+  src: url("../font/Tajawal/Tajawal-Bold.ttf");
 }
 
 @font-face {
   font-family: Alexandria;
-  src: url("/font/Alexandria/Alexandria-VariableFont_wght.ttf");
+  src: url("../font/Alexandria/Alexandria-VariableFont_wght.ttf");
 }
 
 @font-face {
   font-family: Cairo;
-  src: url("/font/Cairo/Cairo-VariableFont_slnt,wght.ttf");
+  src: url("../font/Cairo/Cairo-VariableFont_slnt\,wght.ttf");
 }
 /*****************************************************************************/
 
@@ -1298,6 +1298,7 @@ padding: 90px;
   width: 100%;
   background-color: var(--main-page-2);
   padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .text11-poo::before {
